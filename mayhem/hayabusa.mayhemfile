@@ -1,0 +1,6 @@
+project: hayabusa
+target: hayabusa
+
+cmds:
+  - cmd: /hayabusa --rules /rules --file /fuzz.evtx
+    filepath: /fuzz.evtx
