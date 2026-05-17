@@ -2,5 +2,7 @@ project: hayabusa
 target: hayabusa
 
 cmds:
-  - cmd: /hayabusa --rules /rules --file /fuzz.evtx
+  - cmd: /hayabusa --rules /rules/hayabusa/default/ --file /fuzz.evtx
     filepath: /fuzz.evtx
+    timeout: 15
+    max_length: 52428800
